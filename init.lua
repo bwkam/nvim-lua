@@ -26,4 +26,5 @@ vim.lsp.config("*", {
 
 vim.lsp.enable({
 	"emmylua_ls",
+	"tinymist",
 })
