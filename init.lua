@@ -27,4 +27,12 @@ vim.lsp.config("*", {
 vim.lsp.enable({
 	"emmylua_ls",
 	"tinymist",
+	-- "rust_analyzer",
+	"svelte",
+	"ts_ls",
+	"elp",
+	"html",
+	"cssls",
+	--	"hls",
+	"elmls",
 })

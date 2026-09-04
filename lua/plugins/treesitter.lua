@@ -3,6 +3,18 @@ local languages = {
 	"vimdoc",
 	"luadoc",
 	"typst",
+	-- "rust",
+	"svelte",
+	"typescript",
+	"javascript",
+	"html",
+	"css",
+	-- "haskell",
+	"elm",
+	"markdown",
+	"markdown_inline",
+	"latex",
+	"yaml",
 }
 
 return {

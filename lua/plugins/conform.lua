@@ -23,6 +23,12 @@ return {
 		formatters_by_ft = {
 			lua = { "stylua" },
 			javascript = { "prettierd", "prettier", stop_after_first = true },
+			typescript = { "prettierd", "prettier", stop_after_first = true },
+			erlang = { "efmt" },
+			svelte = { "prettierd", "prettier", stop_after_first = true },
+			haskell = { "ormolu" },
+			-- rust = { "rustfmt" },
+			-- TODO: add haskell & elm,
 		},
 		-- Set default options
 		default_format_opts = {
