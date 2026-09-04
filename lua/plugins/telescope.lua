@@ -23,7 +23,13 @@ return {
 			end,
 			desc = "Find Files (Root Dir)",
 		},
-		{ "<leader>ff", "<cmd>Telescope find_files<cr>", desc = "Find Files (cwd)" },
+		{
+			"<leader>ff",
+			function()
+				require("telescope.builtin").find_files({ hidden = true })
+			end,
+			desc = "Find Files (cwd)",
+		},
 		{ "<leader>fp", "<cmd>Telescope find_files cwd=~/.config/nvim<cr>", desc = "Find Config Files" },
 		{
 			"<leader>fb",
